@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+group = 'com.example-Gradle'
+version = '1.0.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'io.dropwizard:dropwizard-core:2.1.0'
+    testImplementation 'io.dropwizard:dropwizard-testing:2.1.0'
+}
+
+tasks.test {
+    useJUnitPlatform()
+}
