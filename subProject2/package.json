@@ -1,0 +1,12 @@
+{
+  "name": "my-project2",
+  "version": "2.0.2",
+  "description": "A sample project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "tree": "^0.1.3"
+  }
+}
